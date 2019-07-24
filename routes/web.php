@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get ("/", "micontrolador@index");
+Route::get ("/index", "micontrolador@index");
+Route::get ("/crear", "micontrolador@crear");
+Route::get ("/articulos", "micontrolador@articulos");
+Route::get ("/mostrar", "micontrolador@mostrar");
+Route::get ("/contacto", "micontrolador@contacto");
+
+
